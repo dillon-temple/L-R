@@ -12155,11 +12155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/momo/Desktop/LandR/LandR.csproj",
+      "projectUniqueName": "/Users/momo/Desktop/BankAccount/LandR.csproj",
       "projectName": "LandR",
-      "projectPath": "/Users/momo/Desktop/LandR/LandR.csproj",
+      "projectPath": "/Users/momo/Desktop/BankAccount/LandR.csproj",
       "packagesPath": "/Users/momo/.nuget/packages/",
-      "outputPath": "/Users/momo/Desktop/LandR/obj/",
+      "outputPath": "/Users/momo/Desktop/BankAccount/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

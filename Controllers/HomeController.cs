@@ -4,11 +4,11 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using LandR.Models;
+using BankAccount.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Http;
 
-namespace LandR.Controllers
+namespace BankAccount.Controllers
 {
     public class HomeController : Controller
     {

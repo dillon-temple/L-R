@@ -1,6 +1,6 @@
 using System;
 
-namespace LandR.Models
+namespace BankAccount.Models
 {
     public class ErrorViewModel
     {

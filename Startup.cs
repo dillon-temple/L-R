@@ -8,10 +8,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using LandR.Models;
+using BankAccount.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace LandR
+namespace BankAccount
 {
     public class Startup
     {

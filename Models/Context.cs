@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace LandR.Models
+namespace BankAccount.Models
 {
     public class MyContext : DbContext
     {
