@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace BankAccount.Models{
     public class User{
@@ -24,5 +25,6 @@ namespace BankAccount.Models{
         [Compare("Password")]
         [DataType(DataType.Password)]
         public string Confirmation { get; set; }
+        public List<Transaction> CustomerLog {get;set;}
     }
 }
