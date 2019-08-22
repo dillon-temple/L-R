@@ -1,0 +1,42 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="top_bar">
+    <h1>Welcome @ViewBag.user.FirstName</h1>
+    <div class="balance_container">
+        <p>Current Balance</p>
+        <div class="balance_amount">$@ViewBag.balance</div>
+    </div>
+</div>
+
+@model List<Transaction>
+
+<div class="top_bar2">
+    <div class="balance_container">
+        <form action="Calculate" method="post">
+                <span validation-for="Amount"></span>
+                <label for="Amount">Deposit/Withdraw</label>
+                <input type="number" name="Amount">
+
+                <input value="Submit" type="submit"> 
+        </form>
+        
+    </div>
+</div>
+
+<table class="chef_table">
+  <tr>
+    <th>Amount</th>
+    <th>Date</th> 
+  </tr>
+    @foreach(var trans in Model){
+
+
+    <tr>
+        <td>$@trans.Amount</td>
+        <td>@trans.CreatedAt</td>
+    </tr>
+    }
+
+</table>

@@ -16,5 +16,9 @@ namespace BankAccount.Models
         public int UserId {get;set;}
         public User Customer{get;set;}
 
+        public Transaction(){
+            
+        }
+
     }
 }

@@ -49,7 +49,6 @@
 /Users/momo/Desktop/BankAccount/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
 /Users/momo/Desktop/BankAccount/obj/Debug/netcoreapp2.2/Razor/Views/Home/Login.g.cshtml.cs
 /Users/momo/Desktop/BankAccount/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
-/Users/momo/Desktop/BankAccount/obj/Debug/netcoreapp2.2/Razor/Views/Home/Success.g.cshtml.cs
 /Users/momo/Desktop/BankAccount/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
 /Users/momo/Desktop/BankAccount/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
 /Users/momo/Desktop/BankAccount/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
@@ -62,3 +61,4 @@
 /Users/momo/Desktop/BankAccount/obj/Debug/netcoreapp2.2/LandR.dll
 /Users/momo/Desktop/BankAccount/obj/Debug/netcoreapp2.2/LandR.pdb
 /Users/momo/Desktop/BankAccount/obj/Debug/netcoreapp2.2/LandR.csproj.CopyComplete
+/Users/momo/Desktop/BankAccount/obj/Debug/netcoreapp2.2/Razor/Views/Home/Bank.g.cshtml.cs
